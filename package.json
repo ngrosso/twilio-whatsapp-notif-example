@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-example",
+  "version": "0.0.1",
+  "description": "A simple whatsapp notification service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/src/app.js"
+  },
+  "author": "Nicolas Grosso",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "node-env-run": "^3.0.2",
+    "node-persist": "^3.0.1",
+    "twilio": "^3.23.1"
+  }
+}
